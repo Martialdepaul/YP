@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import image6 from "/Image6.jpg";
-import image2 from "/Image12.jpg";
-import image4 from "/Image8.jpg";
+import image6 from "../assets/Image6.jpg";
+import image2 from "../assets/Image12.jpg";
+import image4 from "../assets/Image8.jpg";
 
 const HeroSection = () => {
   const images = [image6, image2, image4]; // Tableau d'images

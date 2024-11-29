@@ -51,7 +51,7 @@ const About = () => {
             {/* Membre 1 */}
             <div className="bg-green-200 p-6 rounded-lg shadow-xl text-center">
               <img
-                src="/OMAR.jpg"
+                src="../assets/OMAR.jpg"
                 alt="Membre 1"
                 className="w-24 h-24 mx-auto rounded-full mb-4"
               />
@@ -67,7 +67,7 @@ const About = () => {
             {/* Membre 2 */}
             <div className="bg-green-200 p-6 rounded-lg shadow-xl text-center">
               <img
-                src="/Oumou.jpg"
+                src="../assets/Oumou.jpg"
                 alt="Membre 2"
                 className="w-24 h-24 mx-auto rounded-full mb-4"
               />
@@ -83,7 +83,7 @@ const About = () => {
             {/* Membre 3 */}
             <div className="bg-green-200 p-6 rounded-lg shadow-xl text-center">
               <img
-                src="/Esther.jpg"
+                src="../assets/Esther.jpg"
                 alt="Membre 3"
                 className="w-24 h-24 mx-auto rounded-full mb-4"
               />
@@ -98,7 +98,7 @@ const About = () => {
             {/* Membre 4 (en dessous du deuxième membre sur les grands écrans) */}
             <div className="bg-green-200 p-6 rounded-lg shadow-xl text-center md:col-span-3">
               <img
-                src="/Martial1.jpg"
+                src="../assets/Martial1.jpg"
                 alt="Membre 4"
                 className="w-24 h-24 mx-auto rounded-full mb-4"
               />
