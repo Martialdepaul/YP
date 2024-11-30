@@ -19,7 +19,7 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="relative bg-green-900 py-20 h-screen overflow-hidden animate-fadeSlideIn"
+      className="relative  py-20 h-screen overflow-hidden animate-fadeSlideIn"
       style={{
         backgroundImage: `url(${images[currentImageIndex]})`, // Image actuelle
         backgroundSize: "cover",
@@ -36,7 +36,10 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 text-center relative z-10 mt-10">
         <h1 className="text-xl md:text-6xl font-bold mt-20 text-white uppercase">
           Optimisez l&apos;agriculture avec{" "}
-          <span className="text-green-500">AgriSmart</span>
+          <span>
+            <br />
+          </span>
+          <span className="text-green-500"> Young Plant</span>
         </h1>
         <p className="text-xl md:text-3xl mb-6 text-white mt-10 font-bold">
           Une{" "}

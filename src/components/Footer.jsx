@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="bg-green-900 text-white py-12">
       <div className="container mx-auto grid md:grid-cols-3 gap-8 px-4">
         <div>
-          <h4 className="text-xl font-bold mb-4">AgriHumidity</h4>
+          <h4 className="text-xl font-bold mb-4">Young Plant</h4>
           <p>
             Solutions innovantes pour la gestion de l&apos;humidité agricole en
             Tunisie
