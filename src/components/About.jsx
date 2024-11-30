@@ -19,7 +19,7 @@ const About = () => {
               Histoire
             </h3>
             <p className="text-gray-700  text-xl break-words">
-              AgriSmart est né de la passion pour une agriculture durable et
+              Young Plant est né de la passion pour une agriculture durable et
               intelligente. Nous croyons en l&apos;innovation pour relever les
               défis agricoles modernes. Notre équipe est composée de
               visionnaires déterminés à transformer l&apos;agriculture avec des
