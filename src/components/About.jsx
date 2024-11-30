@@ -1,9 +1,12 @@
 import { FiBook, FiTarget, FiUsers } from "react-icons/fi";
-
+import Omar from "../assets/OMAR.jpg";
+import Oumou from "../assets/Oumou.jpg";
+import Ether from "../assets/Esther.jpg";
+import Martial from "../assets/Martial1.jpg";
 const About = () => {
   return (
     <section id="about" className="bg-green-100 py-16 ">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 mt-20">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 text-black uppercase">
           À propos de nous
         </h2>
@@ -47,29 +50,32 @@ const About = () => {
           </h3>
 
           {/* Liste des Membres de l'Équipe */}
-          <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-8">
+          <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-8">
             {/* Membre 1 */}
             <div className="bg-green-200 p-6 rounded-lg shadow-xl text-center">
               <img
-                src="../assets/OMAR.jpg"
-                alt="Membre 1"
-                className="w-24 h-24 mx-auto rounded-full mb-4"
+                src={Martial}
+                alt="Membre 4"
+                className="w-45 h-45 mx-auto rounded-full mb-4"
               />
-              <h4 className="text-xl font-semibold">Omar</h4>
-              <p className="text-gray-600">CEO et Co-Fondateur</p>
+              <h4 className="text-xl font-semibold">Martial De-Paul</h4>
+              <p className="text-gray-600">
+                CEO et Co-Fondateur et Responsable IT
+              </p>
               <p className="text-gray-700 mt-2">
-                Omar est passionné par l&apos;IOT par les technologies durables
-                et dirige YP avec une vision claire de l&apos;innovation
-                agricole.
+                Martial est responsable de la mise en œuvre des solutions
+                techniques d&apos;irrigation intelligente dans les exploitations
+                agricoles.
               </p>
             </div>
 
             {/* Membre 2 */}
+
             <div className="bg-green-200 p-6 rounded-lg shadow-xl text-center">
               <img
-                src="../assets/Oumou.jpg"
+                src={Oumou}
                 alt="Membre 2"
-                className="w-24 h-24 mx-auto rounded-full mb-4"
+                className="w-50 h-50 mx-auto rounded-full mb-4"
               />
               <h4 className="text-xl font-semibold">Oumou Coulibaly</h4>
               <p className="text-gray-600">Resposable Marketing</p>
@@ -83,33 +89,31 @@ const About = () => {
             {/* Membre 3 */}
             <div className="bg-green-200 p-6 rounded-lg shadow-xl text-center">
               <img
-                src="../assets/Esther.jpg"
+                src={Omar}
+                alt="Membre 1"
+                className="w-50 h-50 mx-auto rounded-full mb-4"
+              />
+              <h4 className="text-xl font-semibold">Omar</h4>
+              <p className="text-gray-600">CEO et Co-Fondateur</p>
+              <p className="text-gray-700 mt-2">
+                Omar est passionné par l&apos;IOT par les technologies durables
+                et dirige YP avec une vision claire de l&apos;innovation
+                agricole.
+              </p>
+            </div>
+
+            {/* Membre 4 (en dessous du deuxième membre sur les grands écrans) */}
+            <div className="bg-green-200 p-6 rounded-lg shadow-xl text-center">
+              <img
+                src={Ether}
                 alt="Membre 3"
-                className="w-24 h-24 mx-auto rounded-full mb-4"
+                className="w-50 h-50 mx-auto rounded-full mb-4"
               />
               <h4 className="text-xl font-semibold"> Yaouno Esther Togo </h4>
               <p className="text-gray-600">Chef de Produit</p>
               <p className="text-gray-700 mt-2">
                 Yaouno est responsable de la direction stratégique et du
                 développement des differentes campagnes.
-              </p>
-            </div>
-
-            {/* Membre 4 (en dessous du deuxième membre sur les grands écrans) */}
-            <div className="bg-green-200 p-6 rounded-lg shadow-xl text-center md:col-span-3">
-              <img
-                src="../assets/Martial1.jpg"
-                alt="Membre 4"
-                className="w-24 h-24 mx-auto rounded-full mb-4"
-              />
-              <h4 className="text-xl font-semibold">Martial De-Paul</h4>
-              <p className="text-gray-600">
-                CEO et Co-Fondateur et Responsable IT
-              </p>
-              <p className="text-gray-700 mt-2">
-                Martial est responsable de la mise en œuvre des solutions
-                techniques d&apos;irrigation intelligente dans les exploitations
-                agricoles.
               </p>
             </div>
           </div>

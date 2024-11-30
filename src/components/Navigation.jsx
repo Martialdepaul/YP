@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FiHome, FiInfo, FiTool, FiMail, FiMenu, FiX } from "react-icons/fi";
+import Logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,8 +11,8 @@ const Navbar = () => {
         {/* Logo et Titre */}
         <div className="flex items-center">
           <a href="/">
-            <h1 className="text-2xl font-bold flex items-center">
-              <img src="./src/assets/logo.png" className="size-12" alt="logo" />{" "}
+            <h1 className="text-2xl font-bold flex items-center ">
+              <img src={Logo} className="size-10" alt="logo" />{" "}
             </h1>
           </a>
         </div>
