@@ -19,7 +19,7 @@ const Navbar = () => {
 
         {/* Navigation principale */}
         <div className="hidden md:flex space-x-6">
-          <a href="/" className="hover:text-green-400 flex items-center">
+          <a href="#" className="hover:text-green-400 flex items-center">
             <FiHome className="mr-2" size={20} /> Accueil
           </a>
           <a href="#about" className="hover:text-green-400 flex items-center">
@@ -49,7 +49,7 @@ const Navbar = () => {
             <div className="absolute top-full right-0 bg-green-700 w-full shadow-md">
               <div className="flex flex-col items-center py-4 space-y-4">
                 <a
-                  href=""
+                  href="#"
                   onClick={() => setIsMenuOpen(false)}
                   className="hover:text-green-400 w-full text-center flex items-center justify-center"
                 >
