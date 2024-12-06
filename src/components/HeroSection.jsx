@@ -4,16 +4,15 @@ import image2 from "../assets/Image12.jpg";
 import image4 from "../assets/Image8.jpg";
 
 const HeroSection = () => {
-  const images = [image6, image2, image4]; // Tableau d'images
+  const images = [image6, image2, image4];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  // Changement d'image automatique toutes les 5 secondes
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 4000); // 5000ms = 5 secondes
+    }, 4000);
 
-    return () => clearInterval(interval); // Nettoyer l'intervalle à la fin
+    return () => clearInterval(interval);
   }, [images.length]);
 
   return (
@@ -21,18 +20,16 @@ const HeroSection = () => {
       id="home"
       className="relative  py-20 h-screen overflow-hidden animate-fadeSlideIn"
       style={{
-        backgroundImage: `url(${images[currentImageIndex]})`, // Image actuelle
+        backgroundImage: `url(${images[currentImageIndex]})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         opacity: 0.7,
-        transition: "background-image 1s ease-in-out", // Transition douce entre les images
+        transition: "background-image 1s ease-in-out",
       }}
     >
-      {/* Overlay semi-transparent */}
       <div className="absolute inset-0 bg-black bg-opacity-50 -z-10"></div>
 
-      {/* Contenu de la section Hero */}
       <div className="container mx-auto px-4 text-center relative z-10 mt-10">
         <h1 className="text-xl md:text-6xl font-bold mt-20 text-white uppercase">
           Optimisez l&apos;agriculture avec{" "}

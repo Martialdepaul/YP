@@ -8,7 +8,6 @@ const Navbar = () => {
   return (
     <nav className="bg-green-800 text-white shadow-lg sticky top-0 z-50 ">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center animate-fadeSlideIn">
-        {/* Logo et Titre */}
         <div className="flex items-center">
           <a href="/">
             <h1 className="text-2xl font-bold flex items-center ">
@@ -17,7 +16,6 @@ const Navbar = () => {
           </a>
         </div>
 
-        {/* Navigation principale */}
         <div className="hidden md:flex space-x-6">
           <a href="#" className="hover:text-green-400 flex items-center">
             <FiHome className="mr-2" size={20} /> Accueil
@@ -36,7 +34,6 @@ const Navbar = () => {
           </a>
         </div>
 
-        {/* Menu mobile */}
         <div className="md:hidden">
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}

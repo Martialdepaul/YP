@@ -1,22 +1,21 @@
 import { FiDroplet, FiMap, FiBarChart } from "react-icons/fi";
 
 const Solution = () => {
-  // Tableau des solutions avec leurs icônes, titres et descriptions
   const solutions = [
     {
-      icon: <FiDroplet size={50} />, // Icône de l'humidité
+      icon: <FiDroplet size={50} />,
       title: "Capteurs intelligents",
       description:
         "Nos capteurs mesurent en temps réel l'humidité du sol, la température, et bien plus encore.",
     },
     {
-      icon: <FiMap size={50} />, // Icône de la carte
+      icon: <FiMap size={50} />,
       title: "Actionneurs connectés",
       description:
         "Automatisez l'irrigation et la fertilisation grâce à nos actionneurs intelligents.",
     },
     {
-      icon: <FiBarChart size={50} />, // Icône du tableau de bord
+      icon: <FiBarChart size={50} />,
       title: "Tableaux de bord",
       description:
         "Gérez toutes vos données agricoles via une plateforme intuitive et facile à utiliser.",

@@ -12,7 +12,6 @@ const About = () => {
         </h2>
 
         <div className="md:flex md:space-x-10">
-          {/* Section Histoire */}
           <div className="md:w-1/2 mb-6 md:mb-0 p-6 bg-green-100 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold mb-4 text-green-700 flex items-center">
               <FiBook className="mr-3 text-green-700" size={24} /> Notre
@@ -27,7 +26,6 @@ const About = () => {
             </p>
           </div>
 
-          {/* Section Mission */}
           <div className="md:w-1/2 p-6 bg-green-100 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold mb-4 text-green-700 flex items-center">
               <FiTarget className="mr-3 text-green-700" size={24} /> Notre
@@ -43,13 +41,11 @@ const About = () => {
           </div>
         </div>
 
-        {/* Section Notre Équipe */}
         <div className="mt-16">
           <h3 className="text-2xl font-semibold text-center text-black mb-8 uppercase">
             <FiUsers className="inline mr-3" size={30} /> Notre Équipe
           </h3>
 
-          {/* Liste des Membres de l'Équipe */}
           <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-8">
             {/* Membre 1 */}
             <div className="bg-green-200 p-6 rounded-lg shadow-xl text-center">
@@ -69,8 +65,6 @@ const About = () => {
               </p>
             </div>
 
-            {/* Membre 2 */}
-
             <div className="bg-green-200 p-6 rounded-lg shadow-xl text-center">
               <img
                 src={Oumou}
@@ -86,7 +80,6 @@ const About = () => {
               </p>
             </div>
 
-            {/* Membre 3 */}
             <div className="bg-green-200 p-6 rounded-lg shadow-xl text-center">
               <img
                 src={Omar}
@@ -102,7 +95,6 @@ const About = () => {
               </p>
             </div>
 
-            {/* Membre 4 (en dessous du deuxième membre sur les grands écrans) */}
             <div className="bg-green-200 p-6 rounded-lg shadow-xl text-center">
               <img
                 src={Ether}
