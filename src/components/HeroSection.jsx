@@ -28,7 +28,7 @@ const HeroSection = () => {
         transition: "background-image 1s ease-in-out",
       }}
     >
-      <div className="absolute inset-0 bg-black bg-opacity-50 -z-10"></div>
+      <div className="absolute inset-0 bg-black/50 bg-opacity-50 -z-10"></div>
 
       <div className="container mx-auto px-4 text-center relative z-10 mt-10">
         <h1 className="text-xl md:text-6xl font-bold mt-20 text-white uppercase">

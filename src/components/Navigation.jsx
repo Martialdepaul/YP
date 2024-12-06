@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="bg-green-800 text-white shadow-lg sticky top-0 z-50 ">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center animate-fadeSlideIn">
         <div className="flex items-center">
-          <a href="/">
+          <a href="#">
             <h1 className="text-2xl font-bold flex items-center ">
               <img src={Logo} className="size-10" alt="logo" />{" "}
             </h1>
