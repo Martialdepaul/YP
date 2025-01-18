@@ -18,45 +18,49 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="relative  py-20 h-screen overflow-hidden animate-fadeSlideIn"
+      className="relative h-screen overflow-hidden flex items-center justify-center"
       style={{
         backgroundImage: `url(${images[currentImageIndex]})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        opacity: 0.7,
         transition: "background-image 1s ease-in-out",
       }}
     >
-      <div className="absolute inset-0 bg-black/50 bg-opacity-50 -z-10"></div>
+      {/* Overlay for better contrast */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/40 z-0"></div>
 
-      <div className="container mx-auto px-4 text-center relative z-10 mt-10">
-        <h1 className="text-xl md:text-6xl font-bold mt-20 text-white uppercase">
-          Optimisez l&apos;agriculture avec{" "}
-          <span>
-            <br />
-          </span>
-          <span className="text-green-500"> Young Plant</span>
+      {/* Content */}
+      <div className="container mx-auto px-6 text-center relative z-10 flex flex-col justify-center items-center h-full">
+        <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight uppercase">
+          Optimisez l&apos;agriculture avec <br />
+          <span className="text-green-500">Young Plant</span>
         </h1>
-        <p className="text-xl md:text-3xl mb-6 text-white mt-10 font-bold">
+        <p className="mt-6 text-lg sm:text-xl lg:text-2xl text-gray-200 max-w-2xl mx-auto leading-relaxed">
           Une{" "}
-          <span className="underline decoration-green-600 ">
+          <span className="text-green-400 font-semibold underline decoration-green-600">
             solution intelligente
           </span>{" "}
           pour les{" "}
-          <span className="underline decoration-green-600 ">agriculteurs</span>{" "}
-          : <span className="underline decoration-green-600 ">capteurs</span>,{" "}
-          <span className="underline decoration-green-600 ">
-            plateformes et bien plus.
+          <span className="text-green-400 font-semibold underline decoration-green-600">
+            agriculteurs
           </span>{" "}
+          :{" "}
+          <span className="text-green-400 font-semibold underline decoration-green-600">
+            capteurs
+          </span>
+          ,{" "}
+          <span className="text-green-400 font-semibold underline decoration-green-600">
+            plateformes
+          </span>{" "}
+          et bien plus.
         </p>
-        <div className="pt-12 opacity-100 relative z-10">
+        <div className="mt-10">
           <a
             href="#about"
-            className="bg-green-900 text-white px-8 py-3 rounded-lg hover:bg-green-700 transition relative z-10"
-            style={{ opacity: 1 }}
+            className="bg-green-700 hover:bg-green-600 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-lg font-semibold text-lg sm:text-xl shadow-md transition-all duration-300 transform hover:scale-105 inline-flex items-center"
           >
-            En savoir plus
+            En savoir plus <span className="ml-2">→</span>
           </a>
         </div>
       </div>
