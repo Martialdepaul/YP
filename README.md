@@ -95,7 +95,7 @@ Ce projet peut être déployé sur des plateformes telles que **Netlify**, **Ver
 
 ## 🎨 Aperçu 🖼️
 
-Voici quelques captures d'écran de l'application :  
+Voici quelques captures d'écran du site :  
 ![Aperçu de Elegant-Context](./src/assets/img1.png)
 
 ---
